@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./img/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+</head>
+<body class="bg-dark" >
+    <nav class="navbar navbar-light bg-warning fixed-top ">
+        <div class="container-fluid ">
+          <a class="navbar-brand  text-dark" href="#"><h2>Abolilah Furniture</h2></a> 
+          <button class="navbar-toggler  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon bg-dark-subtle"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-dark " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h3 class="offcanvas-title  " id="offcanvasNavbarLabel">Abolilah Furniture</h3>
+              <button type="button" class="btn-close text-reset  " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark ps-auto  border rounded-pill border-warning bg-warning" aria-current="page" href="#Home"><h3>الصفحه الرئيسيه</h3></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#Sleep"><h4>غرف نوم</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#Living"><h4>انتريهات</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#Dining"><h4>غرف سفره</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#Corners"><h4>ركنات</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#Childern"><h4>غرف اطفال</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning " href="#Bed"><h4>كنب سرير</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="#Sal"><h4>صالونات</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning " href="#Tv"><h4>تربيزات انتريهات - Tv</h4>  </a>
+                </li>
+                  </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <form id="Login" class="w-50 m- 5-auto  bg-dark border m-auto  border-warning pt-5 ">
+        <h2 class="text-center text-warning pt-5 pb-5">تسجيل الدخول</h2>
+        <div class="mb-3 p-3">
+          <label for="exampleInputEmail1" class="form-label text-warning  ">البريد الاكترونى</label>
+          <input type="email" placeholder="البريد الاكترونى" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 p-3  ">
+          <label for="exampleInputPassword1" class="form-label text-warning ">كلمه السر</label>
+          <input type="password" placeholder="كلمه السر" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="d-flex justify-content-center pb-3">
+            <button type="submit" class="btn btn-primary px-auto">تسجيل الدخول</button>
+        </div>
+      </form>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
